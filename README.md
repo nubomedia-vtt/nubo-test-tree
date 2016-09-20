@@ -1,53 +1,64 @@
-# nubo-test-tree
+nubo-test-tree
+==============
 
 This repository contains a test software for Android Tree Client.
 
-This project is part of [NUBOMEDIA](http://www.nubomedia.eu).
-
-The source code is available at [https://github.com/nubomedia-vtt/kurento-room-client-android].
-
-Documentation
---------------------
-Documentation is available in [Github]. The more detailed Developers Guide and Installation Guide are available at [http://kurento-room-client-android.readthedocs.org/en/latest/](http://kurento-room-client-android.readthedocs.org/en/latest/)
+This project is part of [NUBOMEDIA].
 
 Repository structure
 --------------------
-This repository consists of an Android Studio library project with gradle build scripts. 
+This repository consists of a self-sustainable Android Studio project with readily-made gradle build scripts. Use Git to pull the project and then open it in Android Studio and perform Gradle sync to download all dependencies.
 
-Usage
---------
-You can import this project to your own Android Studio project via Maven (jCenter or Maven Central) by adding the following line to module's `build.gradle` file:
-```
-compile 'fi.vtt.nubomedia:kurento-tree-client-android:version-number'
-```
+Documentation
+--------------------
+This project has no formal documentation as it is a simple demo project.
 
-If you want to build the project from source, you need to import the third-party libraries via Maven by adding the following lines to
-the module's `build.gradle` file
-```
-compile 'fi.vtt.nubomedia:utilities-android:version-number'
-compile 'fi.vtt.nubomedia:jsonrpc-ws-android:version-number'
-compile 'fi.vtt.nubomedia:webrtcpeer-android:version-number'
-```
+Source
+------
+The source code is available in [Github]
 
-Licensing
----------
-[BSD](https://github.com/nubomedia-vtt/kurento-room-client-android/blob/master/LICENSE)
+Licensing and distribution
+--------------------------
 
-***Contribution policy***
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-You can contribute to this project through bug-reports, bug-fixes, new code or new documentation. For contributing to the project, drop a post to the mailing list providing information about your contribution and its value. In your contributions, you must comply with the following guidelines
+  http://www.apache.org/licenses/LICENSE-2.0
 
-•	You must specify the specific contents of your contribution either through a detailed bug description, through a pull-request or through a patch.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-•	You must specify the licensing restrictions of the code you contribute.
+Contribution policy
+-------------------
 
-•	For newly created code to be incorporated in the code-base, you must accept the code copyright, so that its open source nature is guaranteed.
+You can contribute to the Nubomedia community through bug-reports, bug-fixes, new
+code or new documentation. For contributing to the Nubomedia community, drop a
+post to the [Nubomedia Public Mailing List] providing full information about your
+contribution and its value. In your contributions, you must comply with the
+following guidelines
 
-•	You must justify appropriately the need and value of your contribution. There is no obligations in relation to accepting contributions from third parties.
+* You must specify the specific contents of your contribution either through a
+  detailed bug description, through a pull-request or through a patch.
+* You must specify the licensing restrictions of the code you contribute.
+* For newly created code to be incorporated in the Nubomedia code-base, you must
+  accept Nubomedia to own the code copyright, so that its open source nature is
+  guaranteed.
+* You must justify appropriately the need and value of your contribution. The
+  Nubomedia project has no obligations in relation to accepting contributions
+  from third parties.
+* The Nubomedia project leaders have the right of asking for further
+  explanations, tests or validations of any code contributed to the community
+  before it being incorporated into the Nubomedia code-base. You must be ready to
+  addressing all these kind of concerns before having your code approved.
 
 Support
 -------
-Support is provided through the [NUBOMEDIA VTT Public Mailing List]
+Support is provided through the [Nubomedia Public Mailing List]
 
-[Github]: https://github.com/nubomedia/kurento-tree-client-android
-[NUBOMEDIA VTT Public Mailing List]: https://groups.google.com/forum/#!forum/nubomedia-vtt
+[NUBOMEDIA]: http://www.nubomedia.eu
+[Github]: https://github.com/nubomedia-vtt/nubo-test-tree
+[Nubomedia Public Mailing List]: https://groups.google.com/forum/#!forum/nubomedia-dev
