@@ -1,3 +1,20 @@
+/*
+ * (C) Copyright 2016 VTT (http://www.vtt.fi)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
 package fi.vtt.nubotest;
 
 import android.app.Activity;
@@ -14,6 +31,7 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.webrtc.DataChannel;
 import org.webrtc.IceCandidate;
 import org.webrtc.MediaStream;
 import org.webrtc.PeerConnection;
@@ -307,6 +325,26 @@ public class MasterVideoActivity extends Activity implements NBMWebRTCPeer.Obser
     @Override
     public void onPeerConnectionError(String s) {
         Log.e(TAG, "onPeerConnectionError:" + s);
+    }
+
+    @Override
+    public void onDataChannel(DataChannel dataChannel, NBMPeerConnection connection) {
+
+    }
+
+    @Override
+    public void onBufferedAmountChange(long l, NBMPeerConnection connection, DataChannel channel) {
+
+    }
+
+    @Override
+    public void onStateChange(NBMPeerConnection connection, DataChannel channel) {
+
+    }
+
+    @Override
+    public void onMessage(DataChannel.Buffer buffer, NBMPeerConnection connection, DataChannel channel) {
+
     }
 
     @Override
