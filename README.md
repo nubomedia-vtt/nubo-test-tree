@@ -1,9 +1,26 @@
+[![License badge](https://img.shields.io/badge/license-Apache2-orange.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+[![][NUBOMEDIA Logo]][NUBOMEDIA]
+
+Copyright © 2016 [VTT]. Licensed under [Apache 2.0 License].
+
 nubo-test-tree
 ==============
 
 This repository contains a test software for Android Tree Client.
 
-This project is part of [NUBOMEDIA].
+What is NUBOMEDIA
+-----------------
+This project is part of [NUBOMEDIA], which is an open source cloud Platform as a
+Service (PaaS) which makes possible to integrate Real Time Communications (RTC)
+and multimedia through advanced media processing capabilities. The aim of
+NUBOMEDIA is to democratize multimedia technologies helping all developers to
+include advanced multimedia capabilities into their Web and smartphone
+applications in a simple, direct and fast manner. To accomplish that objective,
+NUBOMEDIA provides a set of APIs that try to abstract all the low level details
+of service deployment, management, and exploitation allowing applications to
+transparently scale and adapt to the required load while preserving QoS
+guarantees.
 
 Repository structure
 --------------------
@@ -24,7 +41,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-  http://www.apache.org/licenses/LICENSE-2.0
+  [Apache 2.0 License]
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -60,5 +77,8 @@ Support
 Support is provided through the [Nubomedia Public Mailing List]
 
 [NUBOMEDIA]: http://www.nubomedia.eu
+[VTT]: http://www.vtt.fi
+[NUBOMEDIA Logo]: http://www.nubomedia.eu/sites/default/files/nubomedia_logo-small.png
+[Apache 2.0 License]: https://www.apache.org/licenses/LICENSE-2.0.txt
 [Github]: https://github.com/nubomedia-vtt/nubo-test-tree
 [Nubomedia Public Mailing List]: https://groups.google.com/forum/#!forum/nubomedia-dev
